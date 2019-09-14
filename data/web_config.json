@@ -1,0 +1,14 @@
+{
+"env":"dev",
+"sdc_url":"http://hdfs08-dev.yingzi.com:18630",
+"taskID":"task1",
+"rpc_connection":"127.0.0.1:111",
+"sync_tables": ["public.testdb.stu","public.testdb.stu1","public.testdb_hmz.hmz"],
+"pg_connection":"172.20.200.20:30432",
+"pg_username": "my_user",
+"pg_password":"password123",
+"snappydata_connection":"172.19.101.82:1528",
+"snappydata_username":"root",
+"snappydata_password":"root",
+"email_receiver":"zhangge@yingzi.com"
+}

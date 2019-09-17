@@ -2,9 +2,10 @@
 An offline synchronization tool based on Streamsets
 
 #Usage:
-python -m datasync  [-h] [--web_conf_path WEB_CONF_PATH] [--task_dir TASK_DIR]
-or
-python datasync.py [-h] [--web_conf_path WEB_CONF_PATH] [--task_dir TASK_DIR]
+
+python -m datasync  --web_conf_path WEB_CONF_PATH --task_dir TASK_DIR
+
+python datasync.py --web_conf_path WEB_CONF_PATH --task_dir TASK_DIR
 
 optional arguments:
   -h, --help            show this help message and exit
